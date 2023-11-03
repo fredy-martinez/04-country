@@ -19,7 +19,6 @@ export class ByCapitalPageComponent {
     .subscribe( countries => {
       this.countries = countries;
     })
-    console.log(term);
-    
+    console.log(term); 
   }
 }
